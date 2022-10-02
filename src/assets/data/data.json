@@ -1,0 +1,56 @@
+{
+  "name": "Ramo Zaid",
+  "backImage": "../img/cuantica.jpg",
+  "image": "./assets/img/oadb.jpg",
+  "position": "Informatico",
+  "about": "Licenciado en ciencias computacionales",
+  "ubication": "Nairobi, Kenia",
+
+  "company": {
+    "name:": "i_trade",
+    "image": "/src/assets/img/logo.jfif",
+    "company_url": "#"
+  },
+  "school": {
+    "name": "Université du Luxembourg",
+    "image": "https://wwwen.uni.lu/design/plain/images/title_simple.uni.lu_en_original.png",
+    "url": "https://wwwen.uni.lu/"
+  },
+
+  "experience": {
+    "position": "Fullstack Developer",
+    "company": "NairobiCentenial",
+    "img": "./assets/img/nairobi.png",
+    "mode": "full time",
+    "start": "mar 2010",
+    "end": "actuallidad",
+    "timeEnclapsed": "12 Años"
+  },
+  "postgrade": {
+    "school": "Université du Luxembourg",
+    "title": " Master Information & Computer Sciences",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Belval_Campus_-_University_of_Luxembourg.jpg/800px-Belval_Campus_-_University_of_Luxembourg.jpg?20170630063753",
+    "career": "Information and Computer Sciences",
+    "score": "87",
+    "start": "2007",
+    "end": "2013"
+  },
+  "grade": {
+    "school": "Universidad Nacional De luján",
+    "title": " Licenciatura en Sistemas Informáticos",
+    "img": "./assets/img/unlu.png",
+    "career": "Licenciado en sistemas informáticos",
+    "score": "87",
+    "start": "2007",
+    "end": "2013"
+  },
+  "highSchool": {
+    "school": "Escuela Nacional de Educación Técnica",
+    "title": " Técnico en Informática",
+    "img": "./assets/img/tecnica.png",
+    "career": "Analista de sistemas",
+    "score": "87",
+    "start": "2007",
+    "end": "2013"
+  }
+}

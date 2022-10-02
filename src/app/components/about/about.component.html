@@ -1,0 +1,77 @@
+<!-- /Sobre mi-->
+<section id="sobre-mi" class="about">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-3">
+        <img
+          [src]="miPortfolio?.image"
+          class="rounded-circle w-75"
+          alt="Developer"
+          title="Lic. O. Díaz"
+        />
+      </div>
+      <div class="col-6 mt-4">
+        <!--presentación-->
+        <div class="card">
+          <div class="card-body">
+            <h1>{{ miPortfolio?.name }}</h1>
+            <h5>
+              {{ miPortfolio?.position }}
+              <br />
+              {{ miPortfolio?.about }}
+              <br />
+              {{ miPortfolio?.ubication }}
+            </h5>
+          </div>
+        </div>
+        <!--experiencia-->
+        <h5>
+          {{ miPortfolio?.experience.position }}
+          <br />
+          {{ miPortfolio?.experience.company }}
+          <br />
+          <img [src]="miPortfolio?.experience.img" width="400" height="200" />
+        </h5>
+      </div>
+      <!--estudios postgrado-->
+      <div class="col-3">
+        <div class="card text-bg-primary mb-3" style="max-width: 18rem">
+          <div class="card-header">Posgrado</div>
+          <div class="card-body">
+            <p class="card-text"></p>
+            <h3>{{ miPortfolio?.postgrade.school }}</h3>
+            {{ miPortfolio?.postgrade.title }}
+            <img
+              [src]="miPortfolio?.postgrade.img"
+              alt="Logo"
+              width="200"
+              height="100"
+            />
+          </div>
+        </div>
+
+        <!--educación universitaria-->
+        <div class="card text-bg-info mb-3" style="max-width: 18rem">
+          <div class="card-header">Grado</div>
+          <div class="card-body">
+            <p class="card-text"></p>
+            <h3>{{ miPortfolio?.grade.school }}</h3>
+            {{ miPortfolio?.grade.title }}
+            <img
+              [src]="miPortfolio?.grade.img"
+              alt="Logo"
+              width="200"
+              height="150"
+            />
+          </div>
+        </div>
+        <h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          asperiores excepturi est odit ipsa possimus, harum esse minus facere.
+          Eligendi quidem, ab optio assumenda nesciunt tempore animi.
+          Reprehenderit, praesentium unde.
+        </h6>
+      </div>
+    </div>
+  </div>
+</section>
