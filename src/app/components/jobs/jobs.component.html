@@ -1,0 +1,31 @@
+<div>
+  <ul class="items-list">
+    <li *ngFor="let experience of experienceList">
+      <div class="data-container text-center">
+        <a href="#">
+          <div class="logo-image-container">
+            <img class="logo-image" scr="#" />
+          </div>
+          <div class="list-info">
+            <div>
+              <h2>Experiencia:</h2>
+              <h3>{{ experience.position }}</h3>
+              <p>{{ experience.company }} - <span> Full Time</span></p>
+              <img
+                [src]="experience?.img"
+                alt="Logo"
+                width="200"
+                height="100"
+              />
+              <h4>{{ experience.country }}</h4>
+              <p>
+                <time>{{ experience.start }}</time> -
+                <time>{{ experience.end }}</time>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>

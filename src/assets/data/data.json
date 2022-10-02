@@ -17,15 +17,30 @@
     "url": "https://wwwen.uni.lu/"
   },
 
-  "experience": {
-    "position": "Fullstack Developer",
-    "company": "NairobiCentenial",
-    "img": "./assets/img/nairobi.png",
-    "mode": "full time",
-    "start": "mar 2010",
-    "end": "actuallidad",
-    "timeEnclapsed": "12 Años"
-  },
+  "experience": [
+    {
+      "position": "Backend Developer",
+      "company": "NairobiCentenial",
+      "country": "Kenia",
+      "career": "Desarrollo de software",
+      "img": "./assets/img/nairobi.png",
+      "mode": "Full Time",
+      "start": "Mar 2010",
+      "end": "Jun 2015",
+      "timeEnclapsed": "5 Años"
+    },
+    {
+      "position": "Fullstack Developer",
+      "company": "InternationalTrade.inc",
+      "country": "US",
+      "career": "Diseño & Desarollo de Software",
+      "img": "./assets/img/logo.jpg",
+      "mode": "Full Time",
+      "start": "Sep 2015",
+      "end": "Actuallidad",
+      "timeEnclapsed": "7 Años"
+    }
+  ],
   "postgrade": {
     "school": "Université du Luxembourg",
     "title": " Master Information & Computer Sciences",
